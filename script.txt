@@ -1,0 +1,17 @@
+Scripts:
+
+1. Create application on EB dashboard
+2. Walk through project structure
+	a. port
+	b. html
+	c. mvn spring-boot:run
+3. mvn package
+4. Upload to eb
+5. Ta da
+6. Update project html
+7. mvn package
+8. eb init
+9. add deploy:
+  artifact: target/rob-buys-lunch-0.0.1-SNAPSHOT.jar
+10. eb deploy
+11. Ta da
